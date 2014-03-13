@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D48B3B0018CDFA7800903A1C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D48B3AFF18CDFA7800903A1C /* Foundation.framework */; };
+		D48B3B0218CDFA7800903A1C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D48B3B0118CDFA7800903A1C /* CoreGraphics.framework */; };
+		D48B3B0418CDFA7800903A1C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D48B3B0318CDFA7800903A1C /* UIKit.framework */; };
+		D48B3B0A18CDFA7800903A1C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D48B3B0818CDFA7800903A1C /* InfoPlist.strings */; };
+		D48B3B0C18CDFA7800903A1C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D48B3B0B18CDFA7800903A1C /* main.m */; };
+		D48B3B1018CDFA7800903A1C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D48B3B0F18CDFA7800903A1C /* AppDelegate.m */; };
+		D48B3B1318CDFA7800903A1C /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D48B3B1118CDFA7800903A1C /* Main_iPhone.storyboard */; };
+		D48B3B1618CDFA7800903A1C /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D48B3B1418CDFA7800903A1C /* Main_iPad.storyboard */; };
+		D48B3B1918CDFA7800903A1C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D48B3B1818CDFA7800903A1C /* ViewController.m */; };
+		D48B3B1B18CDFA7800903A1C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D48B3B1A18CDFA7800903A1C /* Images.xcassets */; };
+		D48B3B2218CDFA7800903A1C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D48B3B2118CDFA7800903A1C /* XCTest.framework */; };
+		D48B3B2318CDFA7800903A1C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D48B3AFF18CDFA7800903A1C /* Foundation.framework */; };
+		D48B3B2418CDFA7800903A1C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D48B3B0318CDFA7800903A1C /* UIKit.framework */; };
+		D48B3B2C18CDFA7800903A1C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D48B3B2A18CDFA7800903A1C /* InfoPlist.strings */; };
+		D48B3B2E18CDFA7800903A1C /* GWQuestionnaireDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D48B3B2D18CDFA7800903A1C /* GWQuestionnaireDemoTests.m */; };
+		D48B3B5F18CDFE7200903A1C /* GWQuestionnaire.m in Sources */ = {isa = PBXBuildFile; fileRef = D48B3B5118CDFE7200903A1C /* GWQuestionnaire.m */; };
+		D48B3B6018CDFE7200903A1C /* GWQuestionnaireCellRate.m in Sources */ = {isa = PBXBuildFile; fileRef = D48B3B5418CDFE7200903A1C /* GWQuestionnaireCellRate.m */; };
+		D48B3B6118CDFE7200903A1C /* GWQuestionnaireCellRate.xib in Resources */ = {isa = PBXBuildFile; fileRef = D48B3B5518CDFE7200903A1C /* GWQuestionnaireCellRate.xib */; };
+		D48B3B6218CDFE7200903A1C /* GWQuestionnaireCellSelection.m in Sources */ = {isa = PBXBuildFile; fileRef = D48B3B5718CDFE7200903A1C /* GWQuestionnaireCellSelection.m */; };
+		D48B3B6318CDFE7200903A1C /* GWQuestionnaireCellSelection.xib in Resources */ = {isa = PBXBuildFile; fileRef = D48B3B5818CDFE7200903A1C /* GWQuestionnaireCellSelection.xib */; };
+		D48B3B6418CDFE7200903A1C /* GWQuestionnaireCellTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = D48B3B5A18CDFE7200903A1C /* GWQuestionnaireCellTextField.m */; };
+		D48B3B6518CDFE7200903A1C /* GWQuestionnaireCellTextField.xib in Resources */ = {isa = PBXBuildFile; fileRef = D48B3B5B18CDFE7200903A1C /* GWQuestionnaireCellTextField.xib */; };
+		D48B3B6618CDFE7200903A1C /* GWQuestionnaireItem.m in Sources */ = {isa = PBXBuildFile; fileRef = D48B3B5E18CDFE7200903A1C /* GWQuestionnaireItem.m */; };
+		D48B3B6918CE027800903A1C /* checked.png in Resources */ = {isa = PBXBuildFile; fileRef = D48B3B6718CE027800903A1C /* checked.png */; };
+		D48B3B6A18CE027800903A1C /* unchecked.png in Resources */ = {isa = PBXBuildFile; fileRef = D48B3B6818CE027800903A1C /* unchecked.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D48B3B2518CDFA7800903A1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D48B3AF418CDFA7800903A1C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D48B3AFB18CDFA7800903A1C;
+			remoteInfo = GWQuestionnaireDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D48B3AFC18CDFA7800903A1C /* GWQuestionnaireDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GWQuestionnaireDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D48B3AFF18CDFA7800903A1C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D48B3B0118CDFA7800903A1C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D48B3B0318CDFA7800903A1C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D48B3B0718CDFA7800903A1C /* GWQuestionnaireDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GWQuestionnaireDemo-Info.plist"; sourceTree = "<group>"; };
+		D48B3B0918CDFA7800903A1C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D48B3B0B18CDFA7800903A1C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D48B3B0D18CDFA7800903A1C /* GWQuestionnaireDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GWQuestionnaireDemo-Prefix.pch"; sourceTree = "<group>"; };
+		D48B3B0E18CDFA7800903A1C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D48B3B0F18CDFA7800903A1C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D48B3B1218CDFA7800903A1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		D48B3B1518CDFA7800903A1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		D48B3B1718CDFA7800903A1C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D48B3B1818CDFA7800903A1C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D48B3B1A18CDFA7800903A1C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D48B3B2018CDFA7800903A1C /* GWQuestionnaireDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GWQuestionnaireDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D48B3B2118CDFA7800903A1C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D48B3B2918CDFA7800903A1C /* GWQuestionnaireDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GWQuestionnaireDemoTests-Info.plist"; sourceTree = "<group>"; };
+		D48B3B2B18CDFA7800903A1C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D48B3B2D18CDFA7800903A1C /* GWQuestionnaireDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GWQuestionnaireDemoTests.m; sourceTree = "<group>"; };
+		D48B3B5018CDFE7200903A1C /* GWQuestionnaire.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWQuestionnaire.h; sourceTree = "<group>"; };
+		D48B3B5118CDFE7200903A1C /* GWQuestionnaire.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWQuestionnaire.m; sourceTree = "<group>"; };
+		D48B3B5318CDFE7200903A1C /* GWQuestionnaireCellRate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWQuestionnaireCellRate.h; sourceTree = "<group>"; };
+		D48B3B5418CDFE7200903A1C /* GWQuestionnaireCellRate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWQuestionnaireCellRate.m; sourceTree = "<group>"; };
+		D48B3B5518CDFE7200903A1C /* GWQuestionnaireCellRate.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GWQuestionnaireCellRate.xib; sourceTree = "<group>"; };
+		D48B3B5618CDFE7200903A1C /* GWQuestionnaireCellSelection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWQuestionnaireCellSelection.h; sourceTree = "<group>"; };
+		D48B3B5718CDFE7200903A1C /* GWQuestionnaireCellSelection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWQuestionnaireCellSelection.m; sourceTree = "<group>"; };
+		D48B3B5818CDFE7200903A1C /* GWQuestionnaireCellSelection.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GWQuestionnaireCellSelection.xib; sourceTree = "<group>"; };
+		D48B3B5918CDFE7200903A1C /* GWQuestionnaireCellTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWQuestionnaireCellTextField.h; sourceTree = "<group>"; };
+		D48B3B5A18CDFE7200903A1C /* GWQuestionnaireCellTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWQuestionnaireCellTextField.m; sourceTree = "<group>"; };
+		D48B3B5B18CDFE7200903A1C /* GWQuestionnaireCellTextField.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GWQuestionnaireCellTextField.xib; sourceTree = "<group>"; };
+		D48B3B5D18CDFE7200903A1C /* GWQuestionnaireItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWQuestionnaireItem.h; sourceTree = "<group>"; };
+		D48B3B5E18CDFE7200903A1C /* GWQuestionnaireItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWQuestionnaireItem.m; sourceTree = "<group>"; };
+		D48B3B6718CE027800903A1C /* checked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checked.png; sourceTree = "<group>"; };
+		D48B3B6818CE027800903A1C /* unchecked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unchecked.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D48B3AF918CDFA7800903A1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D48B3B0218CDFA7800903A1C /* CoreGraphics.framework in Frameworks */,
+				D48B3B0418CDFA7800903A1C /* UIKit.framework in Frameworks */,
+				D48B3B0018CDFA7800903A1C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D48B3B1D18CDFA7800903A1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D48B3B2218CDFA7800903A1C /* XCTest.framework in Frameworks */,
+				D48B3B2418CDFA7800903A1C /* UIKit.framework in Frameworks */,
+				D48B3B2318CDFA7800903A1C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D48B3AF318CDFA7800903A1C = {
+			isa = PBXGroup;
+			children = (
+				D48B3B0518CDFA7800903A1C /* GWQuestionnaireDemo */,
+				D48B3B2718CDFA7800903A1C /* GWQuestionnaireDemoTests */,
+				D48B3AFE18CDFA7800903A1C /* Frameworks */,
+				D48B3AFD18CDFA7800903A1C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D48B3AFD18CDFA7800903A1C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D48B3AFC18CDFA7800903A1C /* GWQuestionnaireDemo.app */,
+				D48B3B2018CDFA7800903A1C /* GWQuestionnaireDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D48B3AFE18CDFA7800903A1C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D48B3AFF18CDFA7800903A1C /* Foundation.framework */,
+				D48B3B0118CDFA7800903A1C /* CoreGraphics.framework */,
+				D48B3B0318CDFA7800903A1C /* UIKit.framework */,
+				D48B3B2118CDFA7800903A1C /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D48B3B0518CDFA7800903A1C /* GWQuestionnaireDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D48B3B4F18CDFE7200903A1C /* GWQuestionnaire */,
+				D48B3B0E18CDFA7800903A1C /* AppDelegate.h */,
+				D48B3B0F18CDFA7800903A1C /* AppDelegate.m */,
+				D48B3B1118CDFA7800903A1C /* Main_iPhone.storyboard */,
+				D48B3B1418CDFA7800903A1C /* Main_iPad.storyboard */,
+				D48B3B1718CDFA7800903A1C /* ViewController.h */,
+				D48B3B1818CDFA7800903A1C /* ViewController.m */,
+				D48B3B1A18CDFA7800903A1C /* Images.xcassets */,
+				D48B3B0618CDFA7800903A1C /* Supporting Files */,
+			);
+			path = GWQuestionnaireDemo;
+			sourceTree = "<group>";
+		};
+		D48B3B0618CDFA7800903A1C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D48B3B0718CDFA7800903A1C /* GWQuestionnaireDemo-Info.plist */,
+				D48B3B0818CDFA7800903A1C /* InfoPlist.strings */,
+				D48B3B0B18CDFA7800903A1C /* main.m */,
+				D48B3B0D18CDFA7800903A1C /* GWQuestionnaireDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D48B3B2718CDFA7800903A1C /* GWQuestionnaireDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				D48B3B2D18CDFA7800903A1C /* GWQuestionnaireDemoTests.m */,
+				D48B3B2818CDFA7800903A1C /* Supporting Files */,
+			);
+			path = GWQuestionnaireDemoTests;
+			sourceTree = "<group>";
+		};
+		D48B3B2818CDFA7800903A1C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D48B3B2918CDFA7800903A1C /* GWQuestionnaireDemoTests-Info.plist */,
+				D48B3B2A18CDFA7800903A1C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D48B3B4F18CDFE7200903A1C /* GWQuestionnaire */ = {
+			isa = PBXGroup;
+			children = (
+				D48B3B6718CE027800903A1C /* checked.png */,
+				D48B3B6818CE027800903A1C /* unchecked.png */,
+				D48B3B5018CDFE7200903A1C /* GWQuestionnaire.h */,
+				D48B3B5118CDFE7200903A1C /* GWQuestionnaire.m */,
+				D48B3B5218CDFE7200903A1C /* GWQuestionnaireCells */,
+				D48B3B5C18CDFE7200903A1C /* GWQuestionnaireItem */,
+			);
+			path = GWQuestionnaire;
+			sourceTree = "<group>";
+		};
+		D48B3B5218CDFE7200903A1C /* GWQuestionnaireCells */ = {
+			isa = PBXGroup;
+			children = (
+				D48B3B5318CDFE7200903A1C /* GWQuestionnaireCellRate.h */,
+				D48B3B5418CDFE7200903A1C /* GWQuestionnaireCellRate.m */,
+				D48B3B5518CDFE7200903A1C /* GWQuestionnaireCellRate.xib */,
+				D48B3B5618CDFE7200903A1C /* GWQuestionnaireCellSelection.h */,
+				D48B3B5718CDFE7200903A1C /* GWQuestionnaireCellSelection.m */,
+				D48B3B5818CDFE7200903A1C /* GWQuestionnaireCellSelection.xib */,
+				D48B3B5918CDFE7200903A1C /* GWQuestionnaireCellTextField.h */,
+				D48B3B5A18CDFE7200903A1C /* GWQuestionnaireCellTextField.m */,
+				D48B3B5B18CDFE7200903A1C /* GWQuestionnaireCellTextField.xib */,
+			);
+			path = GWQuestionnaireCells;
+			sourceTree = "<group>";
+		};
+		D48B3B5C18CDFE7200903A1C /* GWQuestionnaireItem */ = {
+			isa = PBXGroup;
+			children = (
+				D48B3B5D18CDFE7200903A1C /* GWQuestionnaireItem.h */,
+				D48B3B5E18CDFE7200903A1C /* GWQuestionnaireItem.m */,
+			);
+			path = GWQuestionnaireItem;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D48B3AFB18CDFA7800903A1C /* GWQuestionnaireDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D48B3B3118CDFA7800903A1C /* Build configuration list for PBXNativeTarget "GWQuestionnaireDemo" */;
+			buildPhases = (
+				D48B3AF818CDFA7800903A1C /* Sources */,
+				D48B3AF918CDFA7800903A1C /* Frameworks */,
+				D48B3AFA18CDFA7800903A1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GWQuestionnaireDemo;
+			productName = GWQuestionnaireDemo;
+			productReference = D48B3AFC18CDFA7800903A1C /* GWQuestionnaireDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D48B3B1F18CDFA7800903A1C /* GWQuestionnaireDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D48B3B3418CDFA7800903A1C /* Build configuration list for PBXNativeTarget "GWQuestionnaireDemoTests" */;
+			buildPhases = (
+				D48B3B1C18CDFA7800903A1C /* Sources */,
+				D48B3B1D18CDFA7800903A1C /* Frameworks */,
+				D48B3B1E18CDFA7800903A1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D48B3B2618CDFA7800903A1C /* PBXTargetDependency */,
+			);
+			name = GWQuestionnaireDemoTests;
+			productName = GWQuestionnaireDemoTests;
+			productReference = D48B3B2018CDFA7800903A1C /* GWQuestionnaireDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D48B3AF418CDFA7800903A1C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Wojczitsu;
+				TargetAttributes = {
+					D48B3B1F18CDFA7800903A1C = {
+						TestTargetID = D48B3AFB18CDFA7800903A1C;
+					};
+				};
+			};
+			buildConfigurationList = D48B3AF718CDFA7800903A1C /* Build configuration list for PBXProject "GWQuestionnaireDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D48B3AF318CDFA7800903A1C;
+			productRefGroup = D48B3AFD18CDFA7800903A1C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D48B3AFB18CDFA7800903A1C /* GWQuestionnaireDemo */,
+				D48B3B1F18CDFA7800903A1C /* GWQuestionnaireDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D48B3AFA18CDFA7800903A1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D48B3B6318CDFE7200903A1C /* GWQuestionnaireCellSelection.xib in Resources */,
+				D48B3B1618CDFA7800903A1C /* Main_iPad.storyboard in Resources */,
+				D48B3B6518CDFE7200903A1C /* GWQuestionnaireCellTextField.xib in Resources */,
+				D48B3B1B18CDFA7800903A1C /* Images.xcassets in Resources */,
+				D48B3B1318CDFA7800903A1C /* Main_iPhone.storyboard in Resources */,
+				D48B3B6918CE027800903A1C /* checked.png in Resources */,
+				D48B3B0A18CDFA7800903A1C /* InfoPlist.strings in Resources */,
+				D48B3B6A18CE027800903A1C /* unchecked.png in Resources */,
+				D48B3B6118CDFE7200903A1C /* GWQuestionnaireCellRate.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D48B3B1E18CDFA7800903A1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D48B3B2C18CDFA7800903A1C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D48B3AF818CDFA7800903A1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D48B3B1918CDFA7800903A1C /* ViewController.m in Sources */,
+				D48B3B5F18CDFE7200903A1C /* GWQuestionnaire.m in Sources */,
+				D48B3B6418CDFE7200903A1C /* GWQuestionnaireCellTextField.m in Sources */,
+				D48B3B6218CDFE7200903A1C /* GWQuestionnaireCellSelection.m in Sources */,
+				D48B3B6618CDFE7200903A1C /* GWQuestionnaireItem.m in Sources */,
+				D48B3B1018CDFA7800903A1C /* AppDelegate.m in Sources */,
+				D48B3B6018CDFE7200903A1C /* GWQuestionnaireCellRate.m in Sources */,
+				D48B3B0C18CDFA7800903A1C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D48B3B1C18CDFA7800903A1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D48B3B2E18CDFA7800903A1C /* GWQuestionnaireDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D48B3B2618CDFA7800903A1C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D48B3AFB18CDFA7800903A1C /* GWQuestionnaireDemo */;
+			targetProxy = D48B3B2518CDFA7800903A1C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D48B3B0818CDFA7800903A1C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D48B3B0918CDFA7800903A1C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D48B3B1118CDFA7800903A1C /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D48B3B1218CDFA7800903A1C /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		D48B3B1418CDFA7800903A1C /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D48B3B1518CDFA7800903A1C /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		D48B3B2A18CDFA7800903A1C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D48B3B2B18CDFA7800903A1C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D48B3B2F18CDFA7800903A1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D48B3B3018CDFA7800903A1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D48B3B3218CDFA7800903A1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GWQuestionnaireDemo/GWQuestionnaireDemo-Prefix.pch";
+				INFOPLIST_FILE = "GWQuestionnaireDemo/GWQuestionnaireDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D48B3B3318CDFA7800903A1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GWQuestionnaireDemo/GWQuestionnaireDemo-Prefix.pch";
+				INFOPLIST_FILE = "GWQuestionnaireDemo/GWQuestionnaireDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D48B3B3518CDFA7800903A1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GWQuestionnaireDemo.app/GWQuestionnaireDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GWQuestionnaireDemo/GWQuestionnaireDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "GWQuestionnaireDemoTests/GWQuestionnaireDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D48B3B3618CDFA7800903A1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GWQuestionnaireDemo.app/GWQuestionnaireDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GWQuestionnaireDemo/GWQuestionnaireDemo-Prefix.pch";
+				INFOPLIST_FILE = "GWQuestionnaireDemoTests/GWQuestionnaireDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D48B3AF718CDFA7800903A1C /* Build configuration list for PBXProject "GWQuestionnaireDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D48B3B2F18CDFA7800903A1C /* Debug */,
+				D48B3B3018CDFA7800903A1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D48B3B3118CDFA7800903A1C /* Build configuration list for PBXNativeTarget "GWQuestionnaireDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D48B3B3218CDFA7800903A1C /* Debug */,
+				D48B3B3318CDFA7800903A1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D48B3B3418CDFA7800903A1C /* Build configuration list for PBXNativeTarget "GWQuestionnaireDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D48B3B3518CDFA7800903A1C /* Debug */,
+				D48B3B3618CDFA7800903A1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D48B3AF418CDFA7800903A1C /* Project object */;
+}
