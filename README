@@ -1,10 +1,10 @@
-GWQuestionnaire - easy questionnaires and surveys solution for iOS
+#GWQuestionnaire - easy questionnaires and surveys solution for iOS
 
-How to use it
+##How to use it
 
 Creating survey/questionnaire:
 
-NSMutableArray *questions = [NSMutableArray array];
+`NSMutableArray *questions = [NSMutableArray array];
     
     NSDictionary *a1 = [NSDictionary dictionaryWithObjectsAndKeys:@"YES",@"text",[NSNumber numberWithBool:NO],@"marked", nil];
     NSDictionary *a2 = [NSDictionary dictionaryWithObjectsAndKeys:@"NO",@"text",[NSNumber numberWithBool:NO],@"marked", nil];
@@ -45,11 +45,11 @@ NSMutableArray *questions = [NSMutableArray array];
     
     surveyController = [[GWQuestionnaire alloc] initWithItems:questions];
     surveyController.view.frame = CGRectMake(0,20,self.view.frame.size.width,self.view.frame.size.height-20);
-    [self.view addSubview:surveyController.view];
+    [self.view addSubview:surveyController.view];`
 
 Getting results from it:
 
-// NSLog answers
+`// NSLog answers
     for(GWQuestionnaireItem *item in surveyController.surveyItems)
     {
         NSLog(@"-----------------");
@@ -62,4 +62,4 @@ Getting results from it:
             {
                 NSLog(@"%d - %@",[[dict objectForKey:@"marked"]boolValue], [dict objectForKey:@"text"]);
             }
-    }
+    }`
